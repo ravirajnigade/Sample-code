@@ -1,0 +1,7 @@
+create table orders
+( order_id number(5) primary key ,
+ customer_id number (5) not null,
+  order_date date ,
+  total_order number(4,2)
+)
+
